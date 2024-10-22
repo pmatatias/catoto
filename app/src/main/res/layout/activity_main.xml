@@ -18,14 +18,43 @@
         />
 
     <TextView
+        android:id="@+id/et_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="loremipsum"
-        android:textSize="30sp"
-        android:textStyle="bold"
         android:gravity="center"
-        android:id="@+id/catfact"
+        android:text="lorem ipsum"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_text"
+        android:text="potato"
+        android:textSize="24sp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:id="@+id/et_sts"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/next_btn"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
         />
 
 
